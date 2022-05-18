@@ -19,6 +19,7 @@ export default function Navigation() {
           tabBarActiveTintColor: "#2155CD",
           tabBarInactiveTintColor: "#A0BCC2",
           tabBarShowLabel: false,
+          headerShown: false,
         })}
       >
         <Tab.Screen name="HomeStack" component={HomeStack} />
