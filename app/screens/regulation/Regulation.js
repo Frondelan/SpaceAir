@@ -6,7 +6,7 @@ import HeaderComponent from "../../components/HeaderComponent";
 import ContentComponent from "../../components/ContentComponent";
 import BtnComponent from "../../components/BtnComponent";
 //Data
-import { regulationText } from "../../data/environment/contentText";
+import { regulationText } from "../../data/contentText";
 
 export default function Regulation({ navigation }) {
   return (
