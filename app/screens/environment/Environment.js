@@ -40,9 +40,11 @@ export default function Environment({ navigation }) {
             plainTitle={envPlainText2}
             plainText={envText2}
           />
-          <Text style={styles.mainTitle}>
-            Environmental problems with plastic
-          </Text>
+          <View>
+            <Text style={styles.mainTitle}>
+              Environmental problems with plastic
+            </Text>
+          </View>
           <Image
             style={styles.imgEnv}
             source={require("../../../assets/headers/ev-example-2.jpeg")}
@@ -88,7 +90,7 @@ const styles = StyleSheet.create({
     marginBottom: 25,
   },
   mainTitle: {
-    textAlign: "center",
+    textAlign: "left",
     fontWeight: "bold",
     fontSize: 27,
     marginTop: 20,
