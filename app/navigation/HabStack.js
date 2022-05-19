@@ -15,10 +15,10 @@ export default function HabStack() {
         headerShown: false,
       }}
     >
-      <Stack.Screen name="Hab" component={HAB} />
-      <Stack.Screen name="HabOne" component={HabOne} />
-      <Stack.Screen name="Materials" component={Materials} />
-      <Stack.Screen name="Tracking" component={Tracking} />
+      <Stack.Screen name="HabScreen" component={HAB} />
+      <Stack.Screen name="HabOneScreen" component={HabOne} />
+      <Stack.Screen name="MaterialsScreen" component={Materials} />
+      <Stack.Screen name="TrackingScreen" component={Tracking} />
     </Stack.Navigator>
   );
 }

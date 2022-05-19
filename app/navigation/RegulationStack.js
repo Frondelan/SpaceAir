@@ -13,8 +13,8 @@ export default function RegulationStack() {
         headerShown: false,
       }}
     >
-      <Stack.Screen name="Regulation" component={Regulation} />
-      <Stack.Screen name="Usa" component={USA} />
+      <Stack.Screen name="RegulationScreen" component={Regulation} />
+      <Stack.Screen name="UsaScreen" component={USA} />
     </Stack.Navigator>
   );
 }

@@ -1,10 +1,28 @@
 import React from "react";
-import { View, Text } from "react-native";
+import { ScrollView, View, StyleSheet } from "react-native";
+import { SafeAreaView } from "react-native-safe-area-context";
+//Components
+import HeaderComponent from "../../components/HeaderComponent";
 
-export default function Regulation() {
+export default function Regulation({ navigation }) {
   return (
-    <View>
-      <Text>Regulation Screen</Text>
-    </View>
+    <SafeAreaView style={styles.bgContainer}>
+      <ScrollView style={styles.bgContainer}>
+        <View>
+          <HeaderComponent imgName="reg-header" />
+        </View>
+      </ScrollView>
+    </SafeAreaView>
   );
 }
+const styles = StyleSheet.create({
+  bgContainer: {
+    flex: 1,
+    backgroundColor: "#FFF",
+  },
+  mainContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    backgroundColor: "#FFF",
+  },
+});

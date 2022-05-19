@@ -1,8 +1,17 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 
-export default function BtnRowComponent(props) {
-  const { imgName, imgText } = props;
+export default function BtnHomeComponent(props) {
+  const {
+    imgName,
+    imgText,
+    navigation,
+    routeName,
+    widthContainer,
+    bottomContainer,
+    widthBtn,
+    heightBtn,
+  } = props;
 
   ImgSelector();
 
@@ -19,6 +28,15 @@ export default function BtnRowComponent(props) {
       case "home-reg-btn":
         dinamicPath = require("../../../assets/menu/home-reg-btn.png");
         break;
+      case "hab-btn-1":
+        dinamicPath = require("../../../assets/menu/hab-btn-1.png");
+        break;
+      case "hab-btn-2":
+        dinamicPath = require("../../../assets/menu/hab-btn-2.png");
+        break;
+      case "hab-btn-3":
+        dinamicPath = require("../../../assets/menu/hab-btn-3.png");
+        break;
       default:
         break;
     }
@@ -27,10 +45,15 @@ export default function BtnRowComponent(props) {
   }
 
   return (
-    <View style={styles.btnsContainer}>
+    <View
+      style={{
+        width: widthContainer,
+        marginBottom: bottomContainer,
+      }}
+    >
       <TouchableOpacity
-        onPress={() => console.log("Hola BTN")}
-        style={styles.tchBtn}
+        onPress={() => navigation.navigate(routeName)}
+        style={[styles.tchBtn, { width: widthBtn, height: heightBtn }]}
       >
         <ImgSelector />
         <Text style={styles.txt}>{imgText}</Text>
@@ -39,10 +62,7 @@ export default function BtnRowComponent(props) {
   );
 }
 const styles = StyleSheet.create({
-  btnsContainer: {},
   tchBtn: {
-    width: 105,
-    height: 105,
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#DEEDF0",

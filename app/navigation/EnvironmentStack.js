@@ -12,7 +12,7 @@ export default function EnvironmentStack() {
         headerShown: false,
       }}
     >
-      <Stack.Screen name="Environment" component={Environment} />
+      <Stack.Screen name="EnvironmentScreen" component={Environment} />
     </Stack.Navigator>
   );
 }
