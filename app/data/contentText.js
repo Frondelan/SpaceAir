@@ -1,3 +1,9 @@
+// Colors
+// #242F9B
+// #646FD4
+// #9BA3EB
+// #DBDFFD
+
 export const regulationText =
   "Over 500,000 high altitude weather balloons are launched across the globe each year. Most are for government meteorological or research purposes, but over 3,000 amateur and educational flights are also conducted every year around the world. \n \nAlthough high altitude weather balloon launches can provide valuable results, care must be taken to abide by the governing laws and regulations to ensure weather balloon safety for aircraft and those that may be impacted by the launch and landing.";
 
@@ -17,3 +23,44 @@ export const regUsaText2 =
   "5. The string used to suspend the payload package(s) from the balloon must be able to separate/terminate with an impact force of no more than 50 pounds.\n\n" +
   "6. No person may design or intentionally operate any unmanned free balloon in a manner that creates a hazard to other persons or their property.\n\n" +
   "7. No person operating any unmanned free balloon may allow an object to be dropped therefrom, if such action creates a hazard to other persons or their property.";
+
+export const envPlainText = "Environmental Impact";
+
+export const envText =
+  "Plastic waste has become in recent years the most abundant in the" +
+  "world and… the most dangerous! It is a material that appeared in" +
+  "the 1950s as a great discovery. In fact, it was installed in our" +
+  "lives forever and is the great protagonist of everything we do.\n\n" +
+  "To understand what the environmental impact of plastics is, you" +
+  "should know that on the one hand, we are talking about the damage" +
+  "they do to species around the planet, especially marine ones, and" +
+  "on the other, the visual impact that generally exists where they" +
+  "accumulate.";
+
+export const envPlainText2 = "Why are plastics polluting?";
+export const envText2 =
+  "The environmental problems with plastic are mainly based on two" +
+  "issues that we have already mentioned; their slow degradation and" +
+  "the chemical composition of which they are made. \n\n" +
+  "• A plastic bag like the ones we use in the purchase takes 150 years to degrade. \n\n" +
+  "• A bottle of those that we find in supermarkets for more than 1,000 years.";
+
+export const envPlainText3 = "Skin problems";
+export const envText3 =
+  "There are certain chemical compounds in plastic that can be absorbed by our skin," +
+  "which is quite dangerous and often triggers dermatological problems.";
+
+export const envPlainText4 = "Consumption of plastics in food";
+export const envText4 =
+  "The fact that they are present in seas and oceans means that they are" +
+  "consumed by many marine species that later end up on our plates.";
+
+export const envPlainText5 = "Degradation of the marine ecosystem";
+export const envText5 =
+  "Both due to its visual impact and the pollution it generates, it is being a serious" +
+  "problem to maintain biodiversity in particular and life in general in these environments.";
+
+export const envPlainText6 = "Formation of garbage islands";
+export const envText6 =
+  "There are already some of them in the Pacific and it seems that due to the" +
+  "accelerated manufacture of containers, wrappers, bags and other plastic products, they will not be the only ones.";

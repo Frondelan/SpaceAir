@@ -2,7 +2,7 @@ import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 
 export default function ContentComponent(props) {
-  const { sdTitle, plainTitle, plainText } = props;
+  const { sdTitle = true, plainTitle, plainText } = props;
 
   return (
     <View style={styles.mainContiner}>

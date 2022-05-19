@@ -11,6 +11,7 @@ export default function BtnComponent(props) {
     bottomContainer,
     widthBtn,
     heightBtn,
+    bgColor = "#DBDFFD",
   } = props;
 
   ImgSelector();
@@ -62,7 +63,10 @@ export default function BtnComponent(props) {
     >
       <TouchableOpacity
         onPress={() => navigation.navigate(routeName)}
-        style={[styles.tchBtn, { width: widthBtn, height: heightBtn }]}
+        style={[
+          styles.tchBtn,
+          { width: widthBtn, height: heightBtn, backgroundColor: bgColor },
+        ]}
       >
         <ImgSelector />
         <Text style={styles.txt}>{imgText}</Text>
@@ -74,7 +78,6 @@ const styles = StyleSheet.create({
   tchBtn: {
     justifyContent: "center",
     alignItems: "center",
-    backgroundColor: "#DEEDF0",
     borderRadius: 10,
   },
   imgC: {

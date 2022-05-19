@@ -46,6 +46,7 @@ export default function SectionHomeComponent({ navigation }) {
           widthContainer="100%"
           bottomContainer={20}
           heightBtn={105}
+          bgColor="#D6E6F2"
         />
         <BtnComponent
           imgName="hab-btn-2"
@@ -55,15 +56,7 @@ export default function SectionHomeComponent({ navigation }) {
           widthContainer="100%"
           bottomContainer={20}
           heightBtn={105}
-        />
-        <BtnComponent
-          imgName="hab-btn-3"
-          imgText="Ultra Long Duration Ballooning"
-          navigation={navigation}
-          routeName="EnvironmentScreen"
-          widthContainer="100%"
-          bottomContainer={20}
-          heightBtn={105}
+          bgColor="#D6E6F2"
         />
       </View>
     </View>
