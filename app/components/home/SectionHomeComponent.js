@@ -1,66 +1,66 @@
 import React from "react";
 import { View, Text, StyleSheet } from "react-native";
 //Components
-import BtnHomeComponent from "./BtnHomeComponent";
+import BtnComponent from "../BtnComponent";
 
 export default function SectionHomeComponent({ navigation }) {
   return (
     <View style={styles.sectionContainer}>
       <Text style={styles.txtTemas}>EXPLORE</Text>
       <View style={styles.rowBtns}>
-        <BtnHomeComponent
+        <BtnComponent
           imgName="home-hab-btn"
           imgText="HAB"
           imgBg="#"
           navigation={navigation}
-          routeName={"HABScreen"}
+          routeName="HABScreen"
           widthBtn={105}
           heightBtn={105}
         />
-        <BtnHomeComponent
+        <BtnComponent
           imgName="home-env-btn"
           imgText="Environment"
           imgBg="#"
           navigation={navigation}
-          routeName={"EnvironmentScreen"}
+          routeName="EnvironmentScreen"
           widthBtn={105}
           heightBtn={105}
         />
-        <BtnHomeComponent
+        <BtnComponent
           imgName="home-reg-btn"
           imgText="Regulation"
           imgBg="#"
           navigation={navigation}
-          routeName={"RegulationScreen"}
+          routeName="RegulationScreen"
           widthBtn={105}
           heightBtn={105}
         />
       </View>
       <Text style={styles.txtTemas2}>BALLOONS</Text>
       <View style={styles.columnBtns}>
-        <BtnHomeComponent
+        <BtnComponent
           imgName="hab-btn-1"
           imgText="Conventional Ballooning"
           navigation={navigation}
-          routeName={"EnvironmentScreen"}
+          routeName="EnvironmentScreen"
           widthContainer="100%"
           bottomContainer={20}
           heightBtn={105}
         />
-        <BtnHomeComponent
+        <BtnComponent
           imgName="hab-btn-2"
           imgText="Long Duration Ballooning"
           navigation={navigation}
-          routeName={"EnvironmentScreen"}
+          routeName="EnvironmentScreen"
           widthContainer="100%"
           bottomContainer={20}
           heightBtn={105}
         />
-        <BtnHomeComponent
+        <BtnComponent
           imgName="hab-btn-3"
           imgText="Ultra Long Duration Ballooning"
           navigation={navigation}
-          routeName={"EnvironmentScreen"}
+          routeName="EnvironmentScreen"
           widthContainer="100%"
           bottomContainer={20}
           heightBtn={105}

@@ -1,7 +1,7 @@
 import React from "react";
 import { View, Text, Image, TouchableOpacity, StyleSheet } from "react-native";
 
-export default function BtnHomeComponent(props) {
+export default function BtnComponent(props) {
   const {
     imgName,
     imgText,
@@ -20,22 +20,31 @@ export default function BtnHomeComponent(props) {
 
     switch (imgName) {
       case "home-hab-btn":
-        dinamicPath = require("../../../assets/menu/home-hab-btn.png");
+        dinamicPath = require("../../assets/menu/home-hab-btn.png");
         break;
       case "home-env-btn":
-        dinamicPath = require("../../../assets/menu/home-env-btn.png");
+        dinamicPath = require("../../assets/menu/home-env-btn.png");
         break;
       case "home-reg-btn":
-        dinamicPath = require("../../../assets/menu/home-reg-btn.png");
+        dinamicPath = require("../../assets/menu/home-reg-btn.png");
         break;
       case "hab-btn-1":
-        dinamicPath = require("../../../assets/menu/hab-btn-1.png");
+        dinamicPath = require("../../assets/menu/hab-btn-1.png");
         break;
       case "hab-btn-2":
-        dinamicPath = require("../../../assets/menu/hab-btn-2.png");
+        dinamicPath = require("../../assets/menu/hab-btn-2.png");
         break;
       case "hab-btn-3":
-        dinamicPath = require("../../../assets/menu/hab-btn-3.png");
+        dinamicPath = require("../../assets/menu/hab-btn-3.png");
+        break;
+      case "reg-btn-usa":
+        dinamicPath = require("../../assets/menu/reg-btn-usa.png");
+        break;
+      case "reg-btn-sv":
+        dinamicPath = require("../../assets/menu/reg-btn-sv.png");
+        break;
+      case "reg-btn-eu":
+        dinamicPath = require("../../assets/menu/reg-btn-eu.png");
         break;
       default:
         break;
