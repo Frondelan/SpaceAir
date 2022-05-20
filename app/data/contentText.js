@@ -89,3 +89,73 @@ export const homePlainText5 = "Ultra Long Duration";
 export const homeText5 =
   "The superpressure pumpkin balloon has been designed to increase flight durations up to one hundred days. This new balloon will" +
   " significantly increase the amount of data that can be collected in one balloon mission.";
+
+export const habText =
+  "Conventional missions typically use direct line-of-sight electronics for command and data with flight durations ranging from a few hours to days.";
+
+export const habPlainText1 = "Step #1";
+export const habText1 =
+  "Prepare the container (box) to store the camera, gps and other instruments that you want to add to collect data, always considering the total weight of the package.\n\n" +
+  "Cut a hole in the side of the container to locate the camera sensor and store the collected information.\n\n" +
+  "Tape the gps, camera and cap to prevent them from moving out of place on the ascent and descent of the balloon.";
+
+export const habPlainText2 = "Step #2";
+export const habText2 =
+  "Wear gloves in the whole process.\n\n" +
+  "Attach the bottom of the parachute with the polyester line and then secure the line with the container (box).\n\n" +
+  "It must be held firmly as it will ascend to a great height and move through the air.";
+
+export const habPlainText3 = "Step #3";
+export const habText3 =
+  "Wear gloves in the whole process." +
+  "Use a tarp to avoid any punctues during the filling, kept out of the sun as long as possible, uv rays can damage the material of the balloon.\n\n" +
+  "Attach firmly the neck of the balloon with the line in the top of the parachute.\n\n" +
+  "At this point, the entire infrastructure should be complete.";
+
+export const habPlainText4 = "Step #4";
+export const habText4 =
+  "Now the time has come, it is time to launch the HAB. Make sure everything is safe and that's it.";
+
+export const habPlainText5 = "Step #5";
+export const habText5 =
+  "Check the gps data and the landing prediction, it is time to carefully follow the data to recover the HAB.";
+
+export const habPlainText6 = "Tips";
+export const habText6 =
+  "Be sure to check your city or country regulations, check landing predictions, and have a backup plan.";
+
+export const materialPlainText = "Materials to build a HAB";
+export const materialText =
+  "The tools needed to create a HAB that exceeds 20 km are:";
+
+export const materialPlainText1 = "1. Balloon Model KCI-350.";
+export const materialText1 =
+  "Material: Natural Latex \n" +
+  "Inflation Gas: Helium\n" +
+  "Payload: 1-2 lbs\n" +
+  "Rate of Ascent: 350m/min\n" +
+  "Burst Altitude: 48,000- 70,000ft\n";
+
+export const materialPlainText2 = "2. White Parachute 60'";
+export const materialText2 =
+  "Weight (with bag): 14 oz\n" + "12 Suspension Lines\n" + "Color: White";
+
+export const materialPlainText3 = "3. GL300W Tracker";
+export const materialText3 =
+  "Dimensions: 39mm(L) x 26mm(W) x 77mm(H)\n" + "Precise GPS tracker";
+
+export const materialPlainText4 = "4. Vemont Action Camera";
+export const materialText4 =
+  "15M high-definition pixel\n" +
+  "115° wide-angle lens\n" +
+  "Up to 4h shooting";
+
+export const materialPlainText5 = "Helium";
+export const materialText5 = "14.9 cu. ft\n" + "12.31 x 18 x 12.31 inches";
+
+export const materialPlainText6 = "6. Polar Tech 205C";
+export const materialText6 = "Superior Insulation\n";
+("18.1 x 10.5 x 9.4 inches");
+
+export const materialPlainText7 = "7. String Polyester Line";
+export const materialText7 = "14.9 cu. ft.\n" + "12.31 x 18 x 12.31 inches\n";

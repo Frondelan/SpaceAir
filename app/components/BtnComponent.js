@@ -41,6 +41,15 @@ export default function BtnComponent(props) {
       case "hab-btn-3":
         dinamicPath = require("../../assets/menu/hab-btn-3.png");
         break;
+      case "hab-planning-btn":
+        dinamicPath = require("../../assets/menu/hab-planning-btn.png");
+        break;
+      case "hab-material-btn":
+        dinamicPath = require("../../assets/menu/hab-material-btn.png");
+        break;
+      case "hab-tracking-btn":
+        dinamicPath = require("../../assets/menu/hab-tracking-btn.png");
+        break;
       case "reg-btn-usa":
         dinamicPath = require("../../assets/menu/reg-btn-usa.png");
         break;
