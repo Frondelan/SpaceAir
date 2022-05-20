@@ -2,9 +2,9 @@
   "expo": {
     "name": "SpaceAir",
     "slug": "SpaceAir",
-    "version": "1.0.0",
+    "version": "2.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon/Icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splashscreen/spaceAir.png",
