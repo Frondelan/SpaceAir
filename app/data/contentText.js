@@ -64,3 +64,28 @@ export const envPlainText6 = "Formation of garbage islands";
 export const envText6 =
   "There are already some of them in the Pacific and it seems that due to the" +
   "accelerated manufacture of containers, wrappers, bags and other plastic products, they will not be the only ones.";
+
+export const homePlainText = "High-Altitude Balloons";
+export const homeText =
+  "Balloons have been used for decades to conduct scientific studies. While the basics of" +
+  " ballooning have not changed, balloon capabilities have increased and their dependability has improved greatly. \n\n" +
+  "Standard NASA scientific balloons are constructed of polyethylene film; the same type material used for plastic bags." +
+  "This material is only 0.002 centimeters (0.0008 inches) thick, about the same as an ordinary sandwich wrap.";
+
+export const homePlainText2 = "Types of Ballooning";
+export const homeText2 =
+  "There are 3 types of ballooning, each one develop a roll in the space.";
+
+export const homePlainText3 = "Conventional";
+export const homeText3 =
+  "Conventional missions typically use direct line-of-sight electronics for command and data with flight durations ranging from a few hours to days";
+
+export const homePlainText4 = "Long Duration";
+export const homeText4 =
+  "A Long Duration Balloon (LDB) mission normally traverses between continents or around the world for one circumnavigation." +
+  " LDB flights may last up to three weeks and satellite-based electronic systems are utilized for command and data.";
+
+export const homePlainText5 = "Ultra Long Duration";
+export const homeText5 =
+  "The superpressure pumpkin balloon has been designed to increase flight durations up to one hundred days. This new balloon will" +
+  " significantly increase the amount of data that can be collected in one balloon mission.";

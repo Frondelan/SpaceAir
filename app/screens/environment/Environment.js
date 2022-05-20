@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
   mainTitle: {
     textAlign: "left",
     fontWeight: "bold",
-    fontSize: 27,
+    fontSize: 29,
     marginTop: 20,
     marginBottom: 20,
   },

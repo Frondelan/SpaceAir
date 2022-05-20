@@ -13,6 +13,9 @@ export default function HeaderComponent(props) {
       case "hab-header":
         dinamicPath = require("../../assets/headers/hab-header.png");
         break;
+      case "hab-example-1":
+        dinamicPath = require("../../assets/headers/hab-example-1.jpeg");
+        break;
       case "hab-one-header":
         dinamicPath = require("../../assets/headers/hab-one-header.png");
         break;

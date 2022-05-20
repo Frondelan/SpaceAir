@@ -21,17 +21,17 @@ const styles = StyleSheet.create({
   },
   mainTitle: {
     fontWeight: "bold",
-    fontSize: 27,
+    fontSize: 29,
     marginTop: 20,
     marginBottom: 20,
   },
   secondaryTitle: {
     fontWeight: "bold",
-    fontSize: 21,
+    fontSize: 23,
     marginBottom: 7,
   },
   contentText: {
     marginBottom: 17,
-    fontSize: 16,
+    fontSize: 17.5,
   },
 });

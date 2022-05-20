@@ -29,6 +29,9 @@ export default function BtnComponent(props) {
       case "home-reg-btn":
         dinamicPath = require("../../assets/menu/home-reg-btn.png");
         break;
+      case "home-book-btn":
+        dinamicPath = require("../../assets/menu/home-book-btn.png");
+        break;
       case "hab-btn-1":
         dinamicPath = require("../../assets/menu/hab-btn-1.png");
         break;
@@ -83,5 +86,9 @@ const styles = StyleSheet.create({
   imgC: {
     width: 60,
     height: 60,
+  },
+  txt: {
+    fontWeight: "bold",
+    marginTop: 7,
   },
 });

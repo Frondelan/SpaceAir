@@ -36,23 +36,23 @@ export default function SectionHomeComponent({ navigation }) {
           heightBtn={105}
         />
       </View>
-      <Text style={styles.txtTemas2}>BALLOONS</Text>
+      <Text style={styles.txtTemas2}>LEARN</Text>
       <View style={styles.columnBtns}>
         <BtnComponent
-          imgName="hab-btn-1"
-          imgText="Conventional Ballooning"
+          imgName="home-book-btn"
+          imgText="High-Altitude Balloons"
           navigation={navigation}
-          routeName="EnvironmentScreen"
+          routeName="HabHomeScreen"
           widthContainer="100%"
           bottomContainer={20}
           heightBtn={105}
           bgColor="#D6E6F2"
         />
         <BtnComponent
-          imgName="hab-btn-2"
-          imgText="Long Duration Ballooning"
+          imgName="home-book-btn"
+          imgText="Types of Ballooning"
           navigation={navigation}
-          routeName="EnvironmentScreen"
+          routeName="HabTypesScreen"
           widthContainer="100%"
           bottomContainer={20}
           heightBtn={105}
