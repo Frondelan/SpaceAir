@@ -1,6 +1,7 @@
 import React from "react";
 import { ScrollView, View, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { StatusBar } from "expo-status-bar";
 //Components
 import HeaderComponent from "../../components/HeaderComponent";
 import TitleComponent from "../../components/TitleComponent";
@@ -27,6 +28,7 @@ export default function HAB({ navigation }) {
   return (
     <SafeAreaView style={styles.bgContainer}>
       <ScrollView style={styles.bgContainer}>
+        <StatusBar style="dark" />
         <View style={styles.mainContainer}>
           <HeaderComponent imgName="hab-one-header" />
           <ContentComponent plainText={habText} />

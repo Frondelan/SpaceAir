@@ -1,6 +1,7 @@
 import React from "react";
 import { ScrollView, View, Text, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { StatusBar } from "expo-status-bar";
 //Components
 import HeaderComponent from "../../components/HeaderComponent";
 import ContentComponent from "../../components/ContentComponent";
@@ -12,6 +13,7 @@ export default function Regulation({ navigation }) {
   return (
     <SafeAreaView style={styles.bgContainer}>
       <ScrollView style={styles.bgContainer}>
+        <StatusBar style="dark" />
         <View>
           <HeaderComponent imgName="reg-header" />
           <ContentComponent

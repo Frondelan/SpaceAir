@@ -1,6 +1,7 @@
 import React from "react";
 import { View, ScrollView, StyleSheet } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+import { StatusBar } from "expo-status-bar";
 //Components
 import ContentComponent from "../../components/ContentComponent";
 //Data
@@ -15,6 +16,7 @@ export default function USA({ navigation }) {
   return (
     <SafeAreaView style={styles.bgContainer}>
       <ScrollView style={styles.bgContainer}>
+        <StatusBar style="dark" />
         <View style={styles.mainContainer}>
           <ContentComponent
             sdTitle={true}
